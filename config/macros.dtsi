@@ -1,36 +1,24 @@
-macro_quotes: macro_quotes{
+macro_toggle_all_fold: macro_toggle_all_fold{
 compatible = "zmk,behavior-macro";
-label = "macro_quotes";
+label = "macro_toggle_all_fold";
 #binding-cells = <0>;
-bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
+bindings = <&kp Z>, <&kp CAPS>, <&kp A>, <&kp CAPS>;
 };
-macro_dquotes: macro_dquotes{
+macro_toggle_fold: macro_toggle_fold{
 compatible = "zmk,behavior-macro";
-label = "macro_dquotes";
+label = "macro_toggle_fold";
 #binding-cells = <0>;
-bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
+bindings = <&kp Z>, <&kp A>;
 };
-macro_braces: macro_braces{
+macro_write: macro_write{
 compatible = "zmk,behavior-macro";
-label = "macro_braces";
+label = "macro_write";
 #binding-cells = <0>;
-bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
+bindings = <&kp COLON>, <&kp W>, <&kp RETURN>;
 };
-macro_parens: macro_parens{
+macro_write_quit: macro_write_quit{
 compatible = "zmk,behavior-macro";
-label = "macro_parens";
+label = "macro_write_quit";
 #binding-cells = <0>;
-bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
-};
-macro_brackets: macro_brackets{
-compatible = "zmk,behavior-macro";
-label = "macro_brackets";
-#binding-cells = <0>;
-bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
-};
-macro_kinesis: macro_kinesis{
-compatible = "zmk,behavior-macro";
-label = "macro_kinesis";
-#binding-cells = <0>;
-bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
+bindings = <&kp COLON>, <&kp W>, <&kp Q>, <&kp RETURN>;
 };
