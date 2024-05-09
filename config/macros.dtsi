@@ -2,79 +2,79 @@ macro_amr: macro_amr{
 compatible = "zmk,behavior-macro";
 label = "macro_amr";
 #binding-cells = <0>;
-bindings = <&kp J>, <&kp H>, <&kp L>, <&kp K>, <&kp J>;
+bindings = <&kp LEFT>, <&kp J>, <&kp H>, <&kp L>, <&kp K>, <&kp J>;
 };
 macro_supply_pack: macro_supply_pack{
 compatible = "zmk,behavior-macro";
 label = "macro_supply_pack";
 #binding-cells = <0>;
-bindings = <&kp J>, <&kp H>, <&kp J>, <&kp K>, <&kp K>, <&kp J>;
+bindings = <&kp LEFT>, <&kp J>, <&kp H>, <&kp J>, <&kp K>, <&kp K>, <&kp J>;
 };
 macro_lax_rover: macro_lax_rover{
 compatible = "zmk,behavior-macro";
 label = "macro_lax_rover";
 #binding-cells = <0>;
-bindings = <&kp J>, <&kp K>, <&kp H>, <&kp K>, <&kp L>, <&kp L>;
+bindings = <&kp LEFT>, <&kp J>, <&kp K>, <&kp H>, <&kp K>, <&kp L>, <&kp L>;
 };
 macro_eat: macro_eat{
 compatible = "zmk,behavior-macro";
 label = "macro_eat";
 #binding-cells = <0>;
-bindings = <&kp J>, <&kp J>, <&kp H>, <&kp K>, <&kp L>;
+bindings = <&kp LEFT>, <&kp J>, <&kp J>, <&kp H>, <&kp K>, <&kp L>;
 };
 macro_autocannon: macro_autocannon{
 compatible = "zmk,behavior-macro";
 label = "macro_autocannon";
 #binding-cells = <0>;
-bindings = <&kp J>, <&kp H>, <&kp J>, <&kp K>, <&kp K>, <&kp L>;
+bindings = <&kp LEFT>, <&kp J>, <&kp H>, <&kp J>, <&kp K>, <&kp K>, <&kp L>;
 };
 macro_hellbomb: macro_hellbomb{
 compatible = "zmk,behavior-macro";
 label = "macro_hellbomb";
 #binding-cells = <0>;
-bindings = <&kp J>, <&kp K>, <&kp H>, <&kp J>, <&kp K>, <&kp L>, <&kp J>, <&kp K>;
+bindings = <&kp LEFT>, <&kp J>, <&kp K>, <&kp H>, <&kp J>, <&kp K>, <&kp L>, <&kp J>, <&kp K>;
 };
 macro_resupply: macro_resupply{
 compatible = "zmk,behavior-macro";
 label = "macro_resupply";
 #binding-cells = <0>;
-bindings = <&kp J>, <&kp J>, <&kp K>, <&kp L>;
+bindings = <&kp LEFT>, <&kp J>, <&kp J>, <&kp K>, <&kp L>;
 };
 macro_cluster: macro_cluster{
 compatible = "zmk,behavior-macro";
 label = "macro_cluster";
 #binding-cells = <0>;
-bindings = <&kp K>, <&kp L>, <&kp J>, <&kp J>, <&kp L>;
+bindings = <&kp LEFT>, <&kp K>, <&kp L>, <&kp J>, <&kp J>, <&kp L>;
 };
 macro_laser: macro_laser{
 compatible = "zmk,behavior-macro";
 label = "macro_laser";
 #binding-cells = <0>;
-bindings = <&kp L>, <&kp J>, <&kp K>, <&kp L>, <&kp J>;
+bindings = <&kp LEFT>, <&kp L>, <&kp J>, <&kp K>, <&kp L>, <&kp J>;
 };
 macro_380: macro_380{
 compatible = "zmk,behavior-macro";
 label = "macro_380";
 #binding-cells = <0>;
-bindings = <&kp L>, <&kp J>, <&kp K>, <&kp K>, <&kp H>, <&kp J>, <&kp J>;
+bindings = <&kp LEFT>, <&kp L>, <&kp J>, <&kp K>, <&kp K>, <&kp H>, <&kp J>, <&kp J>;
 };
 macro_500kg: macro_500kg{
 compatible = "zmk,behavior-macro";
 label = "macro_500kg";
 #binding-cells = <0>;
-bindings = <&kp K>, <&kp L>, <&kp J>, <&kp J>, <&kp J>;
+bindings = <&kp LEFT>, <&kp K>, <&kp L>, <&kp J>, <&kp J>, <&kp J>;
 };
 macro_airstrike: macro_airstrike{
 compatible = "zmk,behavior-macro";
 label = "macro_airstrike";
 #binding-cells = <0>;
-bindings = <&kp K>, <&kp L>, <&kp J>, <&kp L>;
+bindings = <&kp LEFT>, <&kp K>, <&kp L>, <&kp J>, <&kp L>;
 };
 macro_reinforce: macro_reinforce{
 compatible = "zmk,behavior-macro";
 label = "macro_reinforce";
 #binding-cells = <0>;
-bindings = <&kp K>, <&kp J>, <&kp L>, <&kp H>, <&kp K>;
+bindings = <&kp LEFT>, <&kp K>, <&kp J>, <&kp L>, <&kp H>, <&kp K>;
 };
 macro_toggle_all_fold: macro_toggle_all_fold{
 compatible = "zmk,behavior-macro";
