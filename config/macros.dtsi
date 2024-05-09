@@ -1,3 +1,9 @@
+macro_amr: macro_amr{
+compatible = "zmk,behavior-macro";
+label = "macro_amr";
+#binding-cells = <0>;
+bindings = <&kp J>, <&kp H>, <&kp L>, <&kp K>, <&kp J>;
+};
 macro_supply_pack: macro_supply_pack{
 compatible = "zmk,behavior-macro";
 label = "macro_supply_pack";
